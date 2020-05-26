@@ -27,3 +27,23 @@
     3) LinkedList (적은 확률이지만 풀 수 있는 방법이고 내가 푼 그래프에선 LinkedList로 푸는 게 더 효율적인 방법이었다. )  ,BFS and DFS 1260문제가 대표적.
                             
    
+ ## Queue<int> queue = new LinkedList<>();
+  
+ Java에서는 Queue를 편리하게 사용할 수 있도록 API를 제공합니다.
+ 그리고 자바의 "다형성" 을 위해 ( 같은 자료형에 여러 가지 객체를 대입하여 다양한 결과를 얻어내는 성질을 의미)
+ Java의 Queue는 인터페이스 형태이므로 inkedList 또는 ArrayList를 통해 사용할 수 있습니다.
+
+ 주요 메소드는 다음과 같습니다.
+  
+  Method                     Description 
+
+Object element()	        저장된 요소를 읽어옴
+
+ Object peek()	      큐의 맨 끝에 저장된 객체를 반환
+
+ Object remove()	         큐에서 객체를 삭제
+
+ boolean offer(Object o)	 큐에 객체를 저장
+
+
+출처: https://swalloow.tistory.com/32 [MyCloud]
